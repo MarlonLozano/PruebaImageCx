@@ -9,7 +9,7 @@ export class UserController {
 
     @Get()
     getMany(){
-        return this.userService.getmany();
+        return this.userService.getMany();
     }
 
     @Get(':id')
